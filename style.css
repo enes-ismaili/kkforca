@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.body {
+    margin:0;
+}
+.nav-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin: 20px;
+}
+
+.titulli{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 50px; 
+    margin-bottom: 30px;
+    text-transform: uppercase !important;
+}
+
+#lajme {
+
+    margin-top: 30px;
+   
+}
+
+#ekipi{
+    margin-top:20px;
+    
+   
+}
+
+.antar-ekipi {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .antar-ekipi img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .antar-ekipi h4 {
+
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+  } 
+
+  .tekst-ekipi {
+    color: #6c757d !important;
+    font-style: italic;
+  }
+
+  hr.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+  }
+  
+  #kontakt {
+    background-color: #212529;
+    background-image: url(images/kontakt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color:whitesmoke;
+    margin:20px 0;
+  }
+
