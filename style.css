@@ -2,13 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-.body {
+body {
     margin:0;
     padding:0;
-    
+
     max-width: 100%;
     overflow-x: hidden;
+  
+    
+
 }
+
+
 .nav-item{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
@@ -26,8 +31,24 @@
 
 #lajme {
 
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
    
+}
+
+.card {
+  margin-bottom: 10px;
+}
+p.card-text {
+
+  max-width: 300ch;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
 }
 
 #ekipi{
